@@ -1,0 +1,172 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.cadre{
+    display: flex;
+    flex-direction: row;   
+}
+
+.un{
+    background-color: green;
+    width: 144px;
+    height: 224px;
+    flex: 1;
+}
+
+.deux{
+    background-color: blue;
+    width: 144px;
+    height: 224px;
+    flex: 1;
+}
+
+.trois{
+    background-color: blueviolet;
+    width: 144px;
+    height: 224px;
+    flex: 1;
+}
+
+.quatre{
+    background-color: orange;
+    width: 144px;
+    height: 224px;
+    flex: 1;
+}
+
+.cinq{
+    background-color: red;
+    width: 144px;
+    height: 224px;
+    flex: 1;
+}
+
+.six{
+    background-color: green;
+    width: 144px;
+    height: 224px;
+    flex: 1;
+}
+
+.sept{
+    background-color: blue;
+    width: 144px;
+    height: 224px;
+    flex: 1;
+}
+
+.huit{
+    background-color: blueviolet;
+    width: 144px;
+    height: 224px;
+    flex: 1;
+}
+
+.neuf{
+    background-color: orange;
+    width: 144px;
+    height: 224px;
+    flex: 1;
+}
+
+@media all and (max-width: 1024px){
+
+/* .cadre{
+
+    display: none;
+} */
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cadre{
+    align: center;
+    width: 300px;
+    height: 750px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;    
+}
+
+.un{
+    background-color: green;
+    min-width: 48%;
+    max-width: 48%;
+    min-height: 144px;
+    max-height: 144px;
+}
+
+.deux{
+    background-color: blue;
+    min-width: 48%;
+    max-width: 48%;
+    min-height: 144px;
+    max-height: 144px;
+}
+
+.trois{
+    background-color: blueviolet;
+    min-width: 48%;
+    max-width: 48%;
+    min-height: 144px;
+    max-height: 144px;
+}
+
+.quatre{
+    background-color: orange;
+    min-width: 48%;
+    max-width: 48%;
+    min-height: 144px;
+    max-height: 144px;
+}
+
+.cinq{
+    background-color: red;
+    min-width: 98%;
+    max-width: 98%;
+    min-height: 144px;
+    max-height: 144px;
+}
+
+.six{
+    background-color: green;
+    min-width: 48%;
+    max-width: 48%;
+    min-height: 144px;
+    max-height: 144px;
+}
+
+.sept{
+    background-color: blue;
+    min-width: 48%;
+    max-width: 48%;
+    min-height: 144px;
+    max-height: 144px;
+}
+
+.huit{
+    background-color: blueviolet;
+    min-width: 48%;
+    max-width: 48%;
+    min-height: 144px;
+    max-height: 144px;
+}
+
+.neuf{
+    background-color: orange;
+    min-width: 48%;
+    max-width: 48%;
+    min-height: 144px;
+    max-height: 144px;
+}
+
+}

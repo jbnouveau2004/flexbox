@@ -1,0 +1,23 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.cadre{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bloc:nth-of-type(n){flex:25%;}
+.bloc:nth-child(1){background-color: green;}
+.bloc:nth-child(2){background-color: blue;}
+.bloc:nth-child(3){background-color: blueviolet;}
+.bloc:nth-child(4){background-color: orange;}
+.bloc:nth-child(5){background-color: red;}
+.bloc:nth-child(6){background-color: green;}
+.bloc:nth-child(7){background-color: blue;}
+.bloc:nth-child(8){background-color: blueviolet;}
